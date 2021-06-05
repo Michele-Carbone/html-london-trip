@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,16 @@
     <link rel="icon" href="./img/18316168-gran-bretagna-gran-bretagna-bandiera-cuore-retrò-vector.jpg">
     <title>Il mio Viaggio a Londra</title>
 </head>
+
 <body>
     <!--Intestazione della pagina-->
     <header>
         <h1>Il mio Viaggio a Londra</h1>
-        <img src="./img/pexels-bill-emrich-230794-0.jpg" alt="Immagine ruota panoramica">
-        <img src="./img/pexels-bill-emrich-230794-1.jpg" alt="Immagine ruota panoramica">
-        <img src="./img/pexels-bill-emrich-230794-2.jpg" alt="Immagine ruota Big Bang">
+        <div class="immagini">
+            <img src="./img/pexels-bill-emrich-230794-0.jpg" alt="Immagine ruota panoramica">
+            <img src="./img/pexels-bill-emrich-230794-1.jpg" alt="Immagine ruota panoramica">
+            <img src="./img/pexels-bill-emrich-230794-2.jpg" alt="Immagine ruota Big Bang">
+        </div>
         <hr>
     </header>
 
@@ -48,29 +52,29 @@
                         <td>Biglietto</td>
                         <td>120&#8364;</td>
                     </tr>
+                </tbody>
+                <tfoot>
                     <tr>
-                        <td>Totale</td>
-                        <td></td>
+                        <td colspan="2">Totale</td>
                         <td>360&#8364;</td>
                     </tr>
-                </tbody>
+                </tfoot>
             </table>
-            <hr>
         </section>
-
+        <hr>
         <section class="programs">
-            <h3>Cose da Fare</h3>
+            <h2>Cose da Fare</h2>
             <ul>
-                <li>Visitare la Tower of London&#10008;</li>
-                <li>Visitare greenwich&#10004;</li>
-                <li>Ascoltare un artista di strada a Covent Garden&#10004;</li>
-                <li>Mangiare il tipico Fish and Chips inglese&#10008;</li>
+                <li>Visitare la Tower of London <strong>&cross;</strong></li>
+                <li>Visitare greenwich <strong>&check;</strong></li>
+                <li>Ascoltare un artista di strada a Covent Garden <strong>&check;</strong></li>
+                <li>Mangiare il tipico Fish and Chips inglese <strong>&cross;</strong></li>
             </ul>
-            <hr>
         </section>
+        <hr>
 
         <section class="info">
-            <h3>Info Utili:</h3>
+            <h2>Info Utili:</h2>
             <ol>
                 <li>Numeri utili di emergenza
                     <ul>
@@ -81,28 +85,29 @@
                 </li>
                 <li>Hotel
                     <ul>
-                        <li><b>Nome hotel</b>: Buckingham Palace</li>
-                        <li><b>Indirizzo hotel</b>: Westminster, London SW1A1AA, Regno Unito</li>
+                        <li><strong>Nome hotel</strong>: Buckingham Palace</li>
+                        <li><strong>Indirizzo hotel</strong>: Westminster, London SW1A1AA, Regno Unito</li>
                     </ul>
                 </li>
                 <li>Aereo
                     <ul>
-                        <li><b>Volo di Andata</b>: Y1234X, ore 9.30 da Milano Malpensa</li>
-                        <li><b>Volo di Ritorno</b>: Y1236X, ore 18.30 da London Heathrow</li>
+                        <li><strong>Volo di Andata</strong>: Y1234X, ore 9.30 da Milano Malpensa</li>
+                        <li><strong>Volo di Ritorno</strong>: Y1236X, ore 18.30 da London Heathrow</li>
                     </ul>
                 </li>
             </ol>
-            <hr>
+        </section>
+        <hr>
+
+        <!--Fondo pagina-->
+        <section>
+            <h3>Le foto</h3>
+            <div>
+                <img src="./img/london-400x400-compressor_0.jpg" alt="immagine della città">
+                <img src="./img/London-Wider-Area-e1597319992670-400x400.jpg" alt="immagine della città">
+            </div>
         </section>
     </main>
-    
-    <!--Fondo pagina-->
-    <footer>
-        <h3>Le foto</h3>
-        <img src="./img/london-400x400-compressor_0.jpg" alt="immagine della città">
-        <img src="./img/London-Wider-Area-e1597319992670-400x400.jpg" alt="immagine della città">
-        <hr>
-    </footer>
-    
 </body>
+
 </html>
